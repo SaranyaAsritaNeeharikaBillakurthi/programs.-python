@@ -1,17 +1,23 @@
 ##addition operator:
 
-##a=int(input('enter a number'))
-##b=int(input('enter a number'))
-##print(type(a),type(b),a+b)
+a=int(input('enter a number'))
+b=int(input('enter a number'))
+print(type(a),type(b),a+b)
 
-##a=input('enter a number')
-##b=input('enter a number')
-##print(type(a),type(b),a,b,a+b)
+#####
 
-##a=int(a)
-##b=int(b)
-##print(type(a),type(b),a,b,a+b)
+a=input('enter a number')
+b=input('enter a number')
+print(type(a),type(b),a,b,a+b)
 
-##a=float(a)
-##b=float(b)
-##print(type(a),type(b),a,b,a+b)
+#####
+
+a=int(a)
+b=int(b)
+print(type(a),type(b),a,b,a+b)
+
+#####
+
+a=float(a)
+b=float(b)
+print(type(a),type(b),a,b,a+b)
