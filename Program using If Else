@@ -1,0 +1,21 @@
+##if else:
+
+p=float(input('enter percrntage'))
+bl=int(input('enter number of backlogs'))
+if p>=60 and bl==0:
+	print(eligible)
+else:
+	print('not eligible')
+	
+#####
+
+##mailid and password:
+
+mid ="thub@gmail.com"
+ipw='1234'
+umid=input('enter a mailid')
+upwd=input('enter password')
+if mid==umid and ipw==upwd:
+	print('login successfully')
+else:
+	print('wrong credentials')
