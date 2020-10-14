@@ -1,0 +1,27 @@
+##for loop:
+
+for i in range(10):
+	print(i)
+
+#####
+
+a=int(input('enter a starting range'))
+b=int(input('entet a ending range'))
+for i in range(a,b+1):
+	print(i)
+
+##increment operator:
+
+for i in range(5,20,2):
+	print(i)
+
+for i in range(25,36,+1):
+	print(i)
+
+##decrement operator:
+
+for i in range(9,0,-1):
+	print(i)
+
+for i in range(35,24,-1):
+	print(i)
