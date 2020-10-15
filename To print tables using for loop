@@ -5,3 +5,15 @@ e=int(input('enter a ending number'))
 b=int(input('enter a number'))
 for n in range(s,e+1):
 	print(n,'*',b,'=',n*b)
+
+##to print any table in the given range for increment and decrement:
+
+s=int(input('enter a starting number'))
+e=int(input('enter a ending number'))
+b=int(input('enter a number'))
+if s<=e:
+    for n in range(s,e+1):
+        print(n,'*',b,'=',n*b)
+else:
+    for n in range(s,e-1,-1):
+	print(n,'*',b,'=',n*b)
