@@ -1,0 +1,7 @@
+#to print tables:
+
+s=int(input('enter a starting number'))
+e=int(input('enter a ending number'))
+b=int(input('enter a number'))
+for n in range(s,e+1):
+	print(n,'*',b,'=',n*b)
