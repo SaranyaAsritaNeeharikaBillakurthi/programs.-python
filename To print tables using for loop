@@ -1,10 +1,12 @@
-#to print tables:
+##to print tables:
 
 s=int(input('enter a starting number'))
 e=int(input('enter a ending number'))
 b=int(input('enter a number'))
 for n in range(s,e+1):
 	print(n,'*',b,'=',n*b)
+
+#####
 
 ##to print any table in the given range for increment and decrement:
 
@@ -16,4 +18,22 @@ if s<=e:
         print(n,'*',b,'=',n*b)
 else:
     for n in range(s,e-1,-1):
+	print(n,'*',b,'=',n*b)
+#####
+
+##to print only odd number table:
+
+s=int(input('enter a starting number'))
+e=int(input('enter a ending number'))
+b=int(input('enter a number'))
+for n in range(s,e+1,2):
+    print(n,'*',b,'=',n*b)
+
+#####
+
+s=int(input('enter a starting number'))
+e=int(input('enter a ending number'))
+b=int(input('enter a number'))
+for n in range(s,e+1):
+    if n%2==1:
 	print(n,'*',b,'=',n*b)
