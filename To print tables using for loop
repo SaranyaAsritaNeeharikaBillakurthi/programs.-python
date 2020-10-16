@@ -37,3 +37,14 @@ b=int(input('enter a number'))
 for n in range(s,e+1):
     if n%2==1:
 	print(n,'*',b,'=',n*b)
+
+#####
+
+##To print even number table
+
+s=int(input('enter a starting number'))
+e=int(input('enter a ending number'))
+b=int(input('enter a number'))
+for n in range(s,e+1):
+    if n%2==1:
+	print(n,'*',b,'=',n*b
