@@ -1,0 +1,58 @@
+##while loop:
+
+##to print good morning for 5 times:
+
+i=0
+while True:
+		print('good morning')
+		i+=1
+		if i==5:
+			break
+
+##increment
+
+i=0
+while True:
+	i+=1
+	print(i)
+	if i==10:
+		break
+
+#####		
+
+i=0
+while i<=10:
+	i+=1
+	print(i)
+
+##decrement:
+
+##INFINITE LOOP
+
+i=0
+while True:
+	print(i)          
+	i-=1
+
+#####
+
+i=10
+while True:
+	print(i)
+	i-=1
+	if i==0:
+		break
+		
+#####
+
+i=10
+while i>=1:
+	print(i)
+	i-=1
+
+#####
+
+i=10
+while not(i<1):
+	print(i)
+	i-=1
